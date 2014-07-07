@@ -14,3 +14,4 @@ Using the 'figure' element again, this time with an 'img' tag inside and followi
 There should be a 10px space between the caption and the image as well.
 
 Challenge 3: Floating a series of cleared images
+Goal: https://www.dropbox.com/s/hd7mgolyp3gzmbb/Screenshot%202014-07-07%2015.33.32.png
