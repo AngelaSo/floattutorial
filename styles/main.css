@@ -7,7 +7,7 @@
 figure {
 	background-color: orange;
 	border: 1px solid black;
-	margin: 15px;
+	margin-left: 15px;
 	padding: 10px;
 	float: right;
 }
