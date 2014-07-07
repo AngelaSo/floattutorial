@@ -7,7 +7,7 @@
 .images img {
 	float: right;
 	display: block;
-	clear: both;
+	clear: right;
 	padding-top: 10px;
 }
 
