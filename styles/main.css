@@ -13,3 +13,12 @@
 .container p {
 	padding-top: 10px;
 }
+
+.imageRow{
+	float: left;
+	clear: right;
+}
+
+.imageRow figure {
+	padding: 20px;
+}

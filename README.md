@@ -15,3 +15,8 @@ There should be a 10px space between the caption and the image as well.
 
 Challenge 3: Floating a series of cleared images
 Goal: https://www.dropbox.com/s/hd7mgolyp3gzmbb/Screenshot%202014-07-07%2015.33.32.png
+
+Challenge 4: Image Gallery
+using the <figure> and <figcaption> concept from #2
+create a 9 item 3x3 grid
+same inner look for the 'figure' with 20px of space between elements
