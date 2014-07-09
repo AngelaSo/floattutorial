@@ -28,15 +28,31 @@
 	padding: 10px 0px;
 	clear: both;
 }
-.container nav {
-	text-align: center;
-}
-.container nav a{
+
+.container nav a {
 	text-decoration: none;
 	background-color: aqua;
-	padding: 0.25em 20px
+	padding: 0.25em 20px;
 }
 
 .container nav a:hover {
 	background-color: yellow;
 }
+
+.container .previous {
+	float: left;
+}
+
+.container .previous:before {
+	content: "<<";
+	margin-right: 10px;
+}
+
+.container .after {
+	float: right;
+}
+
+.container .after:after {
+	content: ">>";
+	margin-left: 10px
+}	
