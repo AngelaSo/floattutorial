@@ -3,8 +3,30 @@
 	margin: 0 auto;
 }
 
+.container h1 {
+	float: left;
+}
+
+.container h1:after {
+	content: "";
+	margin: 0 0.75em;
+}
+
+.container .author {
+	float: left;
+}
+
+.container .author:after {
+	content: "";
+	margin: 0 0.75em;
+}
+
+.container time {
+	float: left;
+}
 .container p {
 	padding: 10px 0px;
+	clear: both;
 }
 .container nav {
 	text-align: center;
