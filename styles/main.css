@@ -33,6 +33,8 @@
 	text-decoration: none;
 	background-color: aqua;
 	padding: 0.25em 20px;
+	min-width: 100px;
+	text-align: center;
 }
 
 .container nav a:hover {
