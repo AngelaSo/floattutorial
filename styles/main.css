@@ -1,6 +1,11 @@
+body {
+	font-family: Arial;
+}
+
 header {
 	background-color: gray;
 	position: relative;
+	border-bottom: 1px solid black;
 }
 
 header .header-content {
@@ -13,9 +18,12 @@ header .header-content {
 header .header-content h1 {
 	float: left;
 	font-size: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 header .header-content nav {
+	padding-top: 25px;
 }
 
 header .header-content nav a {
@@ -29,8 +37,62 @@ main {
 	clear: both;
 }
 
-footer {
+main aside {
+	width: 100px;
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+main .content {
+	width: 830px;
+	float: left;
+	padding-left: 15px;
+	border-left: 1px solid black;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+main .content p {
+	margin-top: 10px;
+	line-height: 1.5em;
+}
+
+main .content span {
+	float: left;
+	width: 35px;
+	font-size: 55px;
+	line-height: 48px;
+}
+
+main .content .article-nav {
+	margin-top: 15px;
+}
+
+main .content .previous {
+	float: left;
+}
+
+main .content .next {
+	float: right;
+}
+
+footer{
 	background-color: gray;
+	border-top: 1px solid black;
+}
+
+footer .footer-content {
+	width: 960px;
+	margin: 15px auto;
+}
+
+footer p {
+	float: left;
+}
+
+footer time {
+	float: right;
 }
 
 /* Personal CSS END */
