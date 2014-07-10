@@ -3,40 +3,6 @@
 	margin: 0 auto;
 }
 
-.container p {
-	margin: 10px 0px;
-}
-
-.container nav a {
-	text-decoration: none;
-	background-color: aqua;
-	padding: 0.25em 20px;
-	min-width: 100px;
-	text-align: center;
-}
-
-.container nav a:hover {
-	background-color: yellow;
-}
-
-.container .previous {
-	float: left;
-}
-
-.container .previous:before {
-	content: "<<";
-	margin-right: 10px;
-}
-
-.container .after {
-	float: right;
-}
-
-.container .after:after {
-	content: ">>";
-	margin-left: 10px
-}
-
 /* Personal CSS END */
 .clearfix { display: inline-block; }
 .clearfix:after {
