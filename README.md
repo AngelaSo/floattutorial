@@ -12,3 +12,6 @@ Challenge 3: Floating a series of cleared images Goal: https://www.dropbox.com/s
 Challenge 4: Image Gallery using the and concept from #2 create a 9 item 3x3 grid same inner look for the 'figure' with 20px of space between elements.
 
 Challenge 5: Create a page with a 960px container centered. It will contain an article with a title, date and author by line. THe article with have >3 paragraphs. The end of the article will have a navigation with previous and next links. The previous link should be on the left, and the next link will be on the right. The prev/next links will have .25em 20px padding, a background color, and a hover background/link color. They will be on the same exact line. 
+
+Challenge 6: Floating a Scaleable Drop Cap
+In a fixed container (960px) create one paragraph. The first letter of this paragraph should be a "drop cap" with a height of exactly 3 line-heights. Refer to this image: https://www.dropbox.com/s/opqqisf91shtj0z/Screenshot%202014-07-10%2011.21.59.png .
