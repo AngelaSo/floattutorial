@@ -27,13 +27,11 @@ header .content nav a  {
 	width: 830px;
 	float: right;
 	border-left: 1px solid black;
-	display: table-cell;
 	padding: 15px 0 15px 15px;
 }
 
 .content aside {
 	width: 100px;
-	display: table-cell;
 	padding: 15px 0;
 }
 
