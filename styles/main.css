@@ -1,3 +1,72 @@
+body {
+	font-family: Arial;
+}
+
+header {
+	background-color: gray;
+	border-bottom: 1px solid black;
+	padding: 15px 0;
+}
+
+header .content {
+	width: 64%;
+	margin: 0 auto;
+}
+
+header .content nav {
+	float: right;
+}
+
+header .content nav a  {
+	text-decoration: none;
+}
+
+.content .columns {
+	display: table-cell;
+	padding: 15px;
+}
+
+.content main {
+	width: 64%;
+	min-width: 360px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.content main article p {
+	margin-top: 10px;
+}
+.content aside {
+	width: 18%;
+	min-width: 100px;
+}
+
+.content .article-nav {
+	padding-top: 15px;
+}
+
+.content .article-nav .previous {
+	float: left;
+}
+
+.content .article-nav .next {
+	float: right;
+}
+
+footer {
+	background-color: gray;
+	border-top: 1px solid black;
+	padding: 15px 0px
+}
+
+footer .content {
+	width: 64%;
+	margin: 0 auto;
+}
+
+footer .content time {
+	float: right;
+}
 
 /* Personal CSS END */
 .clearfix { display: inline-block; }
