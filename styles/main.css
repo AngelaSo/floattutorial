@@ -4,95 +4,58 @@ body {
 
 header {
 	background-color: gray;
-	position: relative;
 	border-bottom: 1px solid black;
+	padding: 15px 0;
 }
 
-header .header-content {
-	position: relative;
-	width: 960px;
-	margin: 0 auto;
-	text-align: right;
+header .content nav {
+	float: right;
 }
 
-header .header-content h1 {
-	float: left;
-	font-size: 30px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-header .header-content nav {
-	padding-top: 25px;
-}
-
-header .header-content nav a {
-	color: white;
+header .content nav a  {
 	text-decoration: none;
 }
 
-main {
+.content {
 	width: 960px;
 	margin: 0 auto;
 	clear: both;
 }
 
-main aside {
-	width: 100px;
-	float: left;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
 
-main .content {
+.content main {
 	width: 830px;
-	float: left;
-	padding-left: 15px;
+	float: right;
 	border-left: 1px solid black;
+	display: table-cell;
+	padding: 15px 0 15px 15px;
+}
+
+.content aside {
+	width: 100px;
+	display: table-cell;
+	padding: 15px 0;
+}
+
+.content .article-nav {
 	padding-top: 15px;
-	padding-bottom: 15px;
 }
 
-main .content p {
-	margin-top: 10px;
-	line-height: 1.5em;
-}
-
-main .content span {
-	float: left;
-	width: 35px;
-	font-size: 55px;
-	line-height: 48px;
-}
-
-main .content .article-nav {
-	margin-top: 15px;
-}
-
-main .content .previous {
+.content .article-nav .previous {
 	float: left;
 }
 
-main .content .next {
+.content .article-nav .next {
 	float: right;
 }
 
-footer{
+footer {
 	background-color: gray;
 	border-top: 1px solid black;
+	padding: 15px 0px
 }
 
-footer .footer-content {
-	width: 960px;
-	margin: 15px auto;
-	padding-bottom: 15px;
-}
-
-footer p {
-	float: left;
-}
-
-footer time {
+.content time {
 	float: right;
 }
 
